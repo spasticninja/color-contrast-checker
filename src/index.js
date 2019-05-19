@@ -1,6 +1,10 @@
+import m from "mithril";
+m.render(document.body, "hello world");
+
 /* Relative Luminance
  * Calculates the RGB value for each HEX color in array and returns the relative luminance for each color.
  * Formula from: https://www.w3.org/TR/WCAG/#dfn-relative-luminance
+ *
  * @param <Array>String color array from hex
  * @return <Array>String relative luminance per color R,G,B
  */
